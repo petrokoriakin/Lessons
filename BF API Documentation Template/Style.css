@@ -1,0 +1,60 @@
+
+@font-face{
+	font-family: 'UnitPro-Bold';
+	src: url('font/UnitPro-Bold.eot');
+	src: local('☺'), url('font/UnitPro-Bold.woff') format('woff'), url('font/UnitPro-Bold.ttf') format('truetype'), url('font/UnitPro-Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body{ 
+	margin: 0; 
+	padding: 0;
+}
+
+
+#PAGE {	
+	margin: auto;
+	width: 1280px;
+	height: 3300px;
+	background-color: #f3f3f3;
+	background-position: center;	
+}
+
+
+.top_header{
+	font-family: 'UnitPro-Bold';
+	width: 1280px;
+	display: inline-block;
+}
+
+.top_line{
+	height: 45px;
+	background-color: #434953;
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#434953), to(#434953), color-stop(.9,#434953),color-stop(0,#5e636b));
+	background-image:-moz-linear-gradient(19% 75% 90deg,#434953, #5e636b);
+}
+}
+
+.top_header input[type="search"]{
+	padding: auto;
+	width: 314px;
+	height: 32px;
+	background: #dddee0;
+	-webkit-border-radius: 4px;
+  	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url(./images/magnifying glass.png);
+	background-repeat: no-repeat;
+	background-position: 4px;
+	outline: none;
+	padding-left: 30px;
+}
+
+#api{
+	margin-top: 10px;
+	margin-left: 146px;
+	
+	margin: auto;
+	color: #ffffff;
+}
