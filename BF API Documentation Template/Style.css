@@ -22,21 +22,26 @@ body{
 }
 
 
-.top_header{
+.top_header {
 	font-family: 'UnitPro-Bold';
 	width: 1280px;
-	display: inline-block;
 }
 
-.top_line{
+.top_line {
 	height: 45px;
 	background-color: #434953;
 	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#434953), to(#434953), color-stop(.9,#434953),color-stop(0,#5e636b));
 	background-image:-moz-linear-gradient(19% 75% 90deg,#434953, #5e636b);
 }
+
+.top_line .search-box {
+	display: inline-block;
+/*	border: 5px;
+	border-style: solid;
+	border-color: red;*/
 }
 
-.top_header input[type="search"]{
+.top_header input[type="search"] {
 	padding: auto;
 	width: 314px;
 	height: 32px;
@@ -44,14 +49,15 @@ body{
 	-webkit-border-radius: 4px;
   	-moz-border-radius: 4px;
 	border-radius: 4px;
-	background-image: url(./images/magnifying glass.png);
+	background-image: url('./images/magnifying glass.png');
 	background-repeat: no-repeat;
 	background-position: 4px;
 	outline: none;
 	padding-left: 30px;
 }
 
-#api{
+#api {
+	display: inline-block;
 	margin-top: 10px;
 	margin-left: 146px;
 	
