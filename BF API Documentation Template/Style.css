@@ -112,7 +112,9 @@ body{
 }
 
 .content_blocks {
+	display: inline-block;
 	width: 816px;
+	top: 0px;
 	background-color: #ffffff;
 	-webkit-border-radius: 4px;
   	-moz-border-radius: 4px;
